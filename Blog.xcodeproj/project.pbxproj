@@ -25,6 +25,9 @@
 		9169851D2741FD0100E652A5 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9169851C2741FD0100E652A5 /* DatabaseManager.swift */; };
 		9169851F2741FD1400E652A5 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9169851E2741FD1400E652A5 /* AuthManager.swift */; };
 		916985212741FD2400E652A5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916985202741FD2400E652A5 /* StorageManager.swift */; };
+		91C93A5C275668E50071F689 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91C93A5B275668E50071F689 /* GoogleService-Info.plist */; };
+		91C93A5E27566DF20071F689 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C93A5D27566DF20071F689 /* User.swift */; };
+		91C93A6027566E010071F689 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C93A5F27566E010071F689 /* Blog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		9169851C2741FD0100E652A5 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		9169851E2741FD1400E652A5 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		916985202741FD2400E652A5 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		91C93A5B275668E50071F689 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91C93A5D27566DF20071F689 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		91C93A5F27566E010071F689 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
 		9A2DB5430B49EAB7DE979C46 /* Pods_Blog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +143,8 @@
 		916985062741FB7A00E652A5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				91C93A5D27566DF20071F689 /* User.swift */,
+				91C93A5F27566E010071F689 /* Blog.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +173,7 @@
 				916984F82741FA2700E652A5 /* Assets.xcassets */,
 				916984EF2741FA2500E652A5 /* AppDelegate.swift */,
 				916984F12741FA2500E652A5 /* SceneDelegate.swift */,
+				91C93A5B275668E50071F689 /* GoogleService-Info.plist */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -250,6 +259,7 @@
 			files = (
 				916984FC2741FA2700E652A5 /* LaunchScreen.storyboard in Resources */,
 				916984F92741FA2700E652A5 /* Assets.xcassets in Resources */,
+				91C93A5C275668E50071F689 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +320,8 @@
 				916985132741FC8900E652A5 /* SignUpViewController.swift in Sources */,
 				916984F02741FA2500E652A5 /* AppDelegate.swift in Sources */,
 				916985112741FC7600E652A5 /* SignInViewController.swift in Sources */,
+				91C93A5E27566DF20071F689 /* User.swift in Sources */,
+				91C93A6027566E010071F689 /* Blog.swift in Sources */,
 				916985172741FCAE00E652A5 /* ViewPostViewController.swift in Sources */,
 				9169850C2741FC1200E652A5 /* ProfileViewController.swift in Sources */,
 				9169851D2741FD0100E652A5 /* DatabaseManager.swift in Sources */,
